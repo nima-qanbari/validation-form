@@ -8,7 +8,7 @@ import { notify } from "../components/Toast/Toast";
 
 import { validate } from "../components/Validate/validate";
 
-const SignUp = () => {
+const Login = () => {
   const [data, setData] = useState({
     email: "",
     password: "",
@@ -93,4 +93,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Login;
